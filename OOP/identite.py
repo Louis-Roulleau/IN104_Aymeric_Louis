@@ -6,7 +6,7 @@ class vehicule:
         self.vitesse = vitesse
         self.name = name
         self.poids = poids
-       # print('Le vehicule %s va à la vitesse de %d km/h et pèse %d kg.', % (name),% (vitesse),% (poids))
+        print("Le vehicule",name,"va à la vitesse de",vitesse," km/h et pèse",poids," kg.",sep=" ")
 
     def getVitesse(self):
         return self.__vitesse
