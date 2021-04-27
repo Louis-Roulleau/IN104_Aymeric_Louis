@@ -17,6 +17,7 @@ class vehicule:
     def doubler(self, vmax):
         if self.vitesse>vmax
             printf("Ce vehicule va plus vite")
+            return 1
         return 0
 
 class voiture(vehicule):
