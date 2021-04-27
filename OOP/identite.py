@@ -6,7 +6,7 @@ class vehicule:
         self.vitesse = vitesse
         self.name = name
         self.poids = poids
-        print('Le vehicule %s va à la vitesse de %d km/h et pèse %d kg.', % (name),% (vitesse),% (poids))
+       # print('Le vehicule %s va à la vitesse de %d km/h et pèse %d kg.', % (name),% (vitesse),% (poids))
 
     def getVitesse(self):
         return self.__vitesse
@@ -22,12 +22,12 @@ class vehicule:
 
 class voiture(vehicule):
     def __str__(self):
-        return "Je suis une voiture qui roule à "+str(self.getVitesse())" km/h."
+        return "Je suis une voiture qui roule à "+str(self.getVitesse())+" km/h."
     def doubler(self):
         print("Je double mes concurrents")
 
 class motocyclette(vehicule):
     def __str__(self):
-        return "Je suis une motocylette qui pèse à "+str(self.getPoids())" kg."
+        return "Je suis une motocylette qui pèse à "+str(self.getPoids())+" kg."
     def lever(self):
         print("Je roule en Y")
