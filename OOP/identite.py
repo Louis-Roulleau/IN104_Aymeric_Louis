@@ -15,10 +15,11 @@ class vehicule:
         return self.__poids
 
     def doubler(self, vmax):
-        if self.vitesse>vmax
+        if self.vitesse>vmax:
             print("Ce vehicule va plus vite")
             return 1
-        return 0
+        else:
+            return 0
 
 class voiture(vehicule):
     def __str__(self):
